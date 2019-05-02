@@ -1,1 +1,20 @@
 // Mixins in here
+.border-bottom(@border){
+    border-bottom: @border;
+}
+.btn-mix(@background, @width, @border-radius, @height, @font-size, @color) {
+    background: @background;
+    width: @width;
+    border-radius: @border-radius;
+    height: @height;
+    font-size: @font-size;
+    color: @color;
+}
+.column-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.width-shift{
+    width: 100%;
+}
