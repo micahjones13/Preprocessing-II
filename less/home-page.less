@@ -88,6 +88,12 @@
   }
   button{
     .btn-mix(@button-bg, 80%, 20px, 50px, 1.75rem, @white);
+    &:hover{
+      background-color: darken(@button-bg, 10%);
+    }
+    &:active{
+      transform: translateY(4px);
+    }
     @media @mobile{
       .width-shift();
     }

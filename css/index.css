@@ -314,6 +314,12 @@ header a {
   font-size: 1.75rem;
   color: #FFFFFF;
 }
+.home button:hover {
+  background-color: #117a8b;
+}
+.home button:active {
+  transform: translateY(4px);
+}
 @media (max-width: 500px) {
   .home button {
     width: 100%;
